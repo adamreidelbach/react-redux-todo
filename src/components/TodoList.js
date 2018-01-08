@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Todo from './Todo'
 
+//a list of visible todos
 const TodoList = ({ todos, onTodoClick }) => (
   <ul>
     {todos.map(todo => (

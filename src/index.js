@@ -9,6 +9,7 @@ import App from './components/App'
 const store = createStore(todoApp)
 
 render(
+  //Provider makes store available to every component (App)
   <Provider store={store}>
     <App />
   </Provider>,

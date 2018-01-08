@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+//single todo item
 const Todo = ({ onClick, completed, text }) => (
   <li
     onClick={onClick}

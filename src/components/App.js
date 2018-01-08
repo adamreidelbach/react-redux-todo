@@ -4,7 +4,6 @@ import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
 import '../index.css'
 
-
 const App = () => (
   <div>
     <AddTodo />
