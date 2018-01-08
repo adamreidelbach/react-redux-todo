@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { addTodo } from '../actions'
 
+//an input field with an "Add" button
 let AddTodo = ({ dispatch }) => {
   let input
 
@@ -10,6 +11,7 @@ let AddTodo = ({ dispatch }) => {
       <form
         onSubmit={e => {
           e.preventDefault()
+          //remove white space inside of string
           if (!input.value.trim()) {
             return
           }
@@ -18,6 +20,7 @@ let AddTodo = ({ dispatch }) => {
         }}
       >
         <input
+          //ref returns the node we are referencing 
           ref={node => {
             input = node
           }}
