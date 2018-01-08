@@ -1,12 +1,12 @@
-## ToDo App (React and Redux)
+# ToDo App (React and Redux)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 The foundation of this project was derived from Redux's own tutorials, which can be found [here](https://redux.js.org/).
 
-#### Getting Started
+### Getting Started
 
-##### Installing
+#### Installing
 1. Fork the repo on GitHub.
 2. Clone it to your machine.
 3. In your terminal, run npm install to download all the necessary dependencies.
