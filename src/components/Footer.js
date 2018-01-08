@@ -3,7 +3,7 @@ import FilterLink from '../containers/FilterLink'
 
 //where the user can change currently visible todos
 const Footer = () => (
-  <p>
+  <p className='footer'>
     Show:
     {/* add space between strings */}
     {' '}
