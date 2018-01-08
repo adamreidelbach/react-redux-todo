@@ -4,7 +4,7 @@ import Todo from './Todo'
 
 //a list of visible todos
 const TodoList = ({ todos, onTodoClick }) => (
-  <ul>
+  <ul className='todoList'>
     {todos.map(todo => (
       <Todo key={todo.id} {...todo} onClick={() => onTodoClick(todo.id)} />
     ))}
